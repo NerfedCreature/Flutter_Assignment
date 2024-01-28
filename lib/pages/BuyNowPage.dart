@@ -18,8 +18,7 @@ class BuyNowPage extends StatelessWidget {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 16),
-            // Add buttons with images for BKash, Rocket, Visa, Mastercard, AmEx, etc.
-            // Add a dropdown button
+            
             DropdownButton<String>(
               items: [
                 DropdownMenuItem<String>(
@@ -33,7 +32,7 @@ class BuyNowPage extends StatelessWidget {
                 ),
                 DropdownMenuItem<String>(
                   value: 'Visa',
-                  child: Text('Visa'),    // Add more items as needed
+                  child: Text('Visa'),    
                 ) ],
               onChanged: (value) {
                 // Handle dropdown selection
